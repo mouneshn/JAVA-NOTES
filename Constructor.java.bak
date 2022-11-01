@@ -1,0 +1,22 @@
+class Car
+{
+	String color;
+	String brand;
+	int size;
+
+	public static void main(String[] args) 
+	{
+		Car c = new Car();
+		c.color = "red";
+		c.brand = "bmw";
+		c.size = 67;
+
+		Car b = new Bike();
+		b.color = "black";
+		b.brand = "ktm";
+		b.size = 22;
+
+		System.out.println(b.brand);
+		System.out.println(c.color);
+	}
+}
